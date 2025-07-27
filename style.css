@@ -3,6 +3,7 @@
   --color-box-bg: #fff;
 }
 
+/* Layout */
 header img {
   inline-size: 100%;
 }
@@ -10,6 +11,12 @@ header img {
 body {
   margin: 0;
   background-color: var(--color-bg);
+}
+
+h1,
+h2,
+p {
+  margin-block: 0;
 }
 
 main {
@@ -27,4 +34,32 @@ main {
   position: relative;
   z-index: 2;
   box-shadow: 0 32px 56px 0 rgba(80, 0, 118, 0.1);
+}
+
+.title {
+  display: flex;
+  gap: 26px;
+  margin-block-end: 1.5rem;
+}
+
+.title img {
+  max-inline-size: 21px;
+}
+
+.question {
+  display: flex;
+  gap: 24px;
+  margin-block-end: 1.5rem;
+}
+
+.question img {
+  max-inline-size: 25px;
+  margin-left: auto;
+}
+
+hr {
+  margin-block: 1.25rem;
+  border: none;
+  height: 1px;
+  background-color: rgba(252, 238, 255, 1);
 }
