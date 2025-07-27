@@ -1,0 +1,30 @@
+:root {
+  --color-bg: rgba(252, 238, 255, 1);
+  --color-box-bg: #fff;
+}
+
+header img {
+  inline-size: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-bg);
+}
+
+main {
+  padding-inline: 1.5rem;
+  padding-block-end: 9rem;
+}
+
+.faq {
+  background-color: var(--color-box-bg);
+  max-inline-size: 37.5rem;
+  margin-inline: auto;
+  margin-block: -100px 0;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  position: relative;
+  z-index: 2;
+  box-shadow: 0 32px 56px 0 rgba(80, 0, 118, 0.1);
+}
