@@ -13,19 +13,19 @@
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: clamp(2rem, 7.29vw, 3.5rem);
   font-weight: 700;
   color: var(--color-heading);
 }
 
 h2 {
-  font-size: 1rem;
+  font-size: clamp(1rem, 2.34vw, 1.125rem);
   font-weight: 600;
   color: var(--color-heading);
 }
 
 p {
-  font-size: 0.875rem;
+  font-size: clamp(0.875rem, 2.08vw, 1rem);
   line-height: 1.5;
   font-weight: 400;
   color: var(--color-txt);
@@ -51,11 +51,12 @@ main {
 }
 
 .faq {
+  box-sizing: border-box;
   background-color: var(--color-box-bg);
   max-inline-size: 37.5rem;
   margin-inline: auto;
   margin-block: -100px 0;
-  padding: 1.5rem;
+  padding: clamp(1.5rem, 5.2vw, 2.5rem);
   border-radius: 0.5rem;
   position: relative;
   z-index: 2;
@@ -65,7 +66,7 @@ main {
 .title {
   display: flex;
   gap: 26px;
-  margin-block-end: 1.5rem;
+  margin-block-end: clamp(1.5rem, 4.16vw, 2rem);
 }
 
 .title img {
@@ -75,7 +76,7 @@ main {
 .question {
   display: flex;
   gap: 24px;
-  margin-block-end: 1.5rem;
+  margin-block-end: clamp(1.5rem, 3.64vw, 1.75rem);
 }
 
 .question img {
@@ -84,7 +85,7 @@ main {
 }
 
 hr {
-  margin-block: 1.25rem;
+  margin-block: clamp(1.25rem, 3.125vw, 1.5rem);
   border: none;
   height: 1px;
   background-color: rgba(252, 238, 255, 1);
