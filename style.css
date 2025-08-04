@@ -100,3 +100,9 @@ hr {
 .question:hover h2 {
   color: var(--color-heading-hover);
 }
+
+.hide {
+  visibility: hidden;
+  display: none;
+  height: 0;
+}
