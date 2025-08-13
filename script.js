@@ -7,7 +7,7 @@ const questions = [...document.querySelectorAll(".q-container")].map(
   })
 );
 
-let activeQuestion = null;
+let activeQuestion = 0;
 
 const toggleAnswer = (questionObj, show) => {
   if (show) {
